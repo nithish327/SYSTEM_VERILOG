@@ -1,4 +1,4 @@
-module arithmtic_operator;
+module logic_implication;
   logic [4:0] a,b;
   int x;
   initial begin;
