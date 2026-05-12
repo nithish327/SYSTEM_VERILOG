@@ -21,7 +21,7 @@ endclass
 class rectangle extends square;
   int b;
   function new(int a,b);
-    this.a =a;javascript:void(0)
+    this.a =a;
     this.b= b;
   endfunction
   function void calculate();
