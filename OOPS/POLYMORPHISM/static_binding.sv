@@ -27,7 +27,14 @@ module salary;
   manager m;
   initial begin
     m = new();
-    e=m;
-    e.display();
+    e=m;  // Parent handle points to child object
+    e.display(); // sattic binding
   end
 endmodule
+
+//OUTPUT
+
+/*run -all
+# Employee salary
+# monthly_salary = 22000 LPA = 264000
+# exit*/
