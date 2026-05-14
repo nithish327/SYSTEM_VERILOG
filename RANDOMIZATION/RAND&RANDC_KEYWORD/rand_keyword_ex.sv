@@ -15,4 +15,14 @@ module tb;
     end
   end
 endmodule
+
+/*OUTPUT
+# data = 5
+# data = 2
+# data = 1
+# data = 0
+# data = 2
+# data = 2
+# data = 1
+# data = 1*/
   
