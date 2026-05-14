@@ -16,3 +16,13 @@ module tb;
   end
 endmodule
   
+/*OUTPUT
+# data = 5
+# data = 4
+# data = 1
+# data = 3
+# data = 6
+# data = 0
+# data = 7
+# data = 2
+# exit*/
